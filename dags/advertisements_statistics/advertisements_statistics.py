@@ -42,11 +42,6 @@ with DAG(
         {'name': 'Tapjoy', 'placement': 'Offerwall'},
         {'name': 'Tapjoy', 'placement': 'tapjoy_ow_173'}
     ]
-
-    table_list = [
-        'fact_advertisement_statistic',
-        'dim_provider_list'
-    ]
     
     extract_load_provider_list = PythonOperator(
         task_id=f'extract_load_provider_list',
