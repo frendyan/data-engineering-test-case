@@ -21,7 +21,7 @@ A simple ETL project that extract data from API, transform and model into wareho
 
 1. Clone the repository and locate to project folder:
 ```bash
-cd data-engineering-test-case
+cd etl-project-api
 ```
 
 2. Excute `run_docker.sh`
